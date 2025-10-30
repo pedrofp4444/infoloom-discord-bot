@@ -103,3 +103,11 @@ docker run -d --name ucsbot --env-file .env -v $(pwd)/data:/app/data ucsbot:late
 * Notifications are sent automatically according to `CHECK_INTERVAL_MINUTES`.
 * The bot stores subscriptions in SQLite (`subscriptions.db`) for persistence.
 * Make sure your bot has access to the channels you want to notify.
+
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for guidelines on how to contribute.
+
+## License
+
+This project is licensed under the terms described in [`LICENSE`](LICENSE).
